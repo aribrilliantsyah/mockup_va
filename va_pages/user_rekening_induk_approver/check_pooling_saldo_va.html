@@ -89,7 +89,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="../../va_pages/user_rekening_induk_checker/check_pendaftaran_instansi.html">
+          <a class="nav-link  " href="../../va_pages/user_rekening_induk_approver/check_pendaftaran_instansi.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>userVA</title>
@@ -109,7 +109,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  " href="../../va_pages/user_rekening_induk_checker/check_perubahan_va.html">
+          <a class="nav-link  " href="../../va_pages/user_rekening_induk_approver/check_perubahan_va.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>userVA</title>
@@ -129,7 +129,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="../../va_pages/user_rekening_induk_checker/check_pooling_saldo_va.html">
+          <a class="nav-link active" href="../../va_pages/user_rekening_induk_approver/check_pooling_saldo_va.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>userVA</title>
@@ -149,7 +149,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link  active" href="../../va_pages/user_rekening_induk_checker/check_disbursement_saldo_va.html">
+          <a class="nav-link  " href="../../va_pages/user_rekening_induk_approver/check_disbursement_saldo_va.html">
             <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
               <svg width="12px" height="12px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <title>userVA</title>
@@ -165,7 +165,7 @@
                 </g>
               </svg>
             </div>
-            <span class="nav-link-text ms-1">Disbursement Saldo VA</span>
+            <span class="nav-link-text ms-1 ">Disbursement Saldo VA</span>
           </a>
         </li>
         <li class="nav-item mt-3">
@@ -357,9 +357,9 @@
                       <th></th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Kode Transaksi</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">VA Target</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Nominal Alokasi</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Total Saldo dialokasikan</th>
-                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status Transaksi</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Jenis Penarikan</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Total Saldo Ditarik</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">status transaksi</th>
                       <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status Pengajuan</th>
                     </tr>
                   </thead>
@@ -370,16 +370,16 @@
                         <button class="btn btn-danger"><i class="fa fa-close"></i></button>
                       </td>
                       <td class="text-center">
-                        TRD20220422001
+                        TRP20220422001
                       </td>
                       <td>
-                        0920000000000089, 09200000000000212, 09200000000000113
+                        0920000000000001, 0920000000000002, 0920000000000003
                       </td>
                       <td>
-                        Rp. 5.000
+                        nominal: Rp. 10.000
                       </td>
                       <td>
-                        Rp. 15.000
+                        Rp. 30.000
                       </td>
                       <td class="align-middle text-center">
                         <span class="badge text-xxs bg-success">SUDAH</span>
@@ -398,24 +398,25 @@
                         <button class="btn btn-danger"><i class="fa fa-close"></i></button>
                       </td>
                       <td class="text-center">
-                        TRD20220422002	
+                        TRP20220422002
                       </td>
                       <td>
-                        0920000000000099	
+                        0920000000000090
                       </td>
                       <td>
-                        Rp. 100.000
+                        Semua
                       </td>
                       <td>
                         Rp. 100.000
                       </td>
                       <td class="align-middle text-center">
-                        <span class="badge text-xxs bg-danger">BELUM</span>
+                        <span class="badge text-xxs bg-success">BELUM</span>
                       </td>
                       <td class="align-middle">
                         <ul>
                           <li><span class="badge text-xxs bg-primary">PENGAJUAN</span></li>
-                          <li><span class="badge text-xxs bg-secondary">MENUNGGU PENGECEKAN</span></li>
+                          <li><span class="badge text-xxs bg-success">SESUAI</span></li>
+                          <li><span class="badge text-xxs bg-danger">DITOLAK</span></li>
                         </ul>
                       </td>
                     </tr>
@@ -425,19 +426,19 @@
                             <button class="btn btn-danger"><i class="fa fa-close"></i></button>
                         </td>
                         <td class="text-center">
-                          TRD20220422018
+                          TRP20220422018
                         </td>
                         <td>
-                          0920000000000131, 0920000000000122
+                          0920000000000031, 0920000000000022
                         </td>
                         <td>
-                          Rp. 50.000
+                          nominal: Rp. 20.000
                         </td>
                         <td>
-                          Rp. 100.000
+                          Rp. 40.000
                         </td>
                         <td class="align-middle text-center">
-                          <span class="badge text-xxs bg-danger">belum</span>
+                          <span class="badge text-xxs bg-danger">SUDAH</span>
                         </td>
                         <td class="align-middle">
                           <ul>
@@ -447,7 +448,7 @@
                           </ul>
                         </td>
                     </tr>
-                   
+                    
                   </tbody>
                 </table>
               </div>
